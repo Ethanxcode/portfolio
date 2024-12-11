@@ -422,7 +422,7 @@ export default function Skills() {
 
                             {/* OpenAI */}
                             <div className="flex flex-col items-center justify-center">
-                                <ChatGpt />
+                                <ChatGpt className="hover:animate-spin" />
                                 <p className="text-sm text-muted-foreground">
                                     OpenAI
                                 </p>
@@ -430,7 +430,7 @@ export default function Skills() {
 
                             {/* Copilot */}
                             <div className="flex flex-col items-center justify-center">
-                                <Copilot />
+                                <Copilot className="hover:animate-spin" />
                                 <p className="text-sm text-muted-foreground">
                                     Copilot
                                 </p>
