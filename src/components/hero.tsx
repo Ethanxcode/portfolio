@@ -10,8 +10,8 @@ import { Button } from './ui/button';
 import { AtSign, Github, Linkedin } from 'lucide-react';
 import { Reveal } from './custom/reveal';
 import { TypewriterEffectSmooth } from './ui/typewriter-effect';
-import me from '@/lib/img/me.jpg';
-import { Readcv } from '@/lib/img/icons/readcv';
+
+import { Readcv } from '@/components/ui/readcv';
 
 export default function Hero() {
     const name = [{ text: 'Ethan' }, { text: 'Tran' }];
@@ -150,7 +150,7 @@ export default function Hero() {
             </div>
             <div className="flex relative w-full h-full">
                 <Image
-                    src={me}
+                    src={'/assets/images/me.jpg'}
                     alt="Me"
                     fill
                     style={{ objectFit: 'contain' }}

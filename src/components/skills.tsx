@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import { Reveal } from './custom/reveal';
 import Spline from '@splinetool/react-spline/next';
-import ChatGpt from '../lib/img/icons/gpt';
-import Copilot from '../lib/img/icons/copilot';
+import ChatGpt from './ui/gpt';
+import Copilot from './ui/copilot';
 
 export default function Skills() {
     const splineUrl = process.env.NEXT_PUBLIC_SPLINE_URL || '';
@@ -42,6 +42,7 @@ export default function Skills() {
                                     width={100}
                                     height={100}
                                     priority
+                                    className="hover:animate-spin"
                                 />
                                 <p className="text-sm text-muted-foreground">
                                     JavaScript
@@ -55,6 +56,7 @@ export default function Skills() {
                                     width={100}
                                     height={100}
                                     priority
+                                    className="hover:animate-spin"
                                 />
                                 <p className="text-sm text-muted-foreground">
                                     TypeScript
@@ -68,6 +70,7 @@ export default function Skills() {
                                     width={100}
                                     height={100}
                                     priority
+                                    className="hover:animate-spin"
                                 />
                                 <p className="text-sm text-muted-foreground">
                                     Java
@@ -81,6 +84,7 @@ export default function Skills() {
                                     width={100}
                                     height={100}
                                     priority
+                                    className="hover:animate-spin"
                                 />
                                 <p className="text-sm text-muted-foreground">
                                     Python
@@ -95,6 +99,7 @@ export default function Skills() {
                                     width={100}
                                     height={100}
                                     priority
+                                    className="hover:animate-spin"
                                 />
                                 <p className="text-sm text-muted-foreground">
                                     PHP
@@ -125,6 +130,7 @@ export default function Skills() {
                                     width={100}
                                     height={100}
                                     priority
+                                    className="hover:animate-spin"
                                 />
                                 <p className="text-sm text-muted-foreground">
                                     CSS
@@ -139,6 +145,7 @@ export default function Skills() {
                                     width={100}
                                     height={100}
                                     priority
+                                    className="hover:animate-spin"
                                 />
                                 <p className="text-sm text-muted-foreground">
                                     HTML
@@ -152,6 +159,7 @@ export default function Skills() {
                                     alt="React logo"
                                     width={100}
                                     height={100}
+                                    className="animate-spin hover:animate-none"
                                     priority
                                 />
                                 <p className="text-sm text-muted-foreground">
@@ -167,6 +175,7 @@ export default function Skills() {
                                     width={100}
                                     height={100}
                                     priority
+                                    className="hover:animate-spin"
                                 />
                                 <p className="text-sm text-muted-foreground">
                                     NextJS
@@ -181,6 +190,7 @@ export default function Skills() {
                                     width={100}
                                     height={100}
                                     priority
+                                    className="hover:animate-spin"
                                 />
                                 <p className="text-sm text-muted-foreground">
                                     Angular
@@ -195,6 +205,7 @@ export default function Skills() {
                                     width={100}
                                     height={100}
                                     priority
+                                    className="hover:animate-spin"
                                 />
                                 <p className="text-sm text-muted-foreground">
                                     Angular
@@ -225,6 +236,7 @@ export default function Skills() {
                                     width={100}
                                     height={100}
                                     priority
+                                    className="hover:animate-spin"
                                 />
                                 <p className="text-sm text-muted-foreground">
                                     NestJS
@@ -264,6 +276,7 @@ export default function Skills() {
                                     width={100}
                                     height={100}
                                     priority
+                                    className="hover:animate-spin"
                                 />
                                 <p className="text-sm text-muted-foreground">
                                     Django
@@ -278,6 +291,7 @@ export default function Skills() {
                                     width={100}
                                     height={100}
                                     priority
+                                    className="hover:animate-spin"
                                 />
                                 <p className="text-sm text-muted-foreground">
                                     Node
@@ -308,6 +322,7 @@ export default function Skills() {
                                     width={100}
                                     height={100}
                                     priority
+                                    className="hover:animate-spin"
                                 />
                                 <p className="text-sm text-muted-foreground">
                                     AWS
@@ -322,6 +337,7 @@ export default function Skills() {
                                     width={100}
                                     height={100}
                                     priority
+                                    className="hover:animate-spin"
                                 />
                                 <p className="text-sm text-muted-foreground">
                                     PostgreSQL
@@ -336,6 +352,7 @@ export default function Skills() {
                                     width={100}
                                     height={100}
                                     priority
+                                    className="hover:animate-spin"
                                 />
                                 <p className="text-sm text-muted-foreground">
                                     MySQL
@@ -350,6 +367,7 @@ export default function Skills() {
                                     width={100}
                                     height={100}
                                     priority
+                                    className="hover:animate-spin"
                                 />
                                 <p className="text-sm text-muted-foreground">
                                     Google Cloud
@@ -380,6 +398,7 @@ export default function Skills() {
                                     width={100}
                                     height={100}
                                     priority
+                                    className="hover:animate-spin"
                                 />
                                 <p className="text-sm text-muted-foreground">
                                     Git
@@ -394,6 +413,7 @@ export default function Skills() {
                                     width={100}
                                     height={100}
                                     priority
+                                    className="hover:animate-spin"
                                 />
                                 <p className="text-sm text-muted-foreground">
                                     Figma

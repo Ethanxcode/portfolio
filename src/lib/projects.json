@@ -3,7 +3,7 @@
         "title": "FPT Polytechnic hands-on workshop",
         "description": "A web application to manage students and activities in a workshop setting. Successfully managed ~10,000 registered students and more than 477 projects.",
         "type": "Associated with FPT Polytechnic College Project",
-        "imageUrl": "/assets/img/Xuongthuchanh.jpg",
+        "imageUrl": "/assets/images/Xuongthuchanh.jpg",
         "githubUrl": "",
         "demoUrl": "https://xuongthuchanh.poly.edu.vn/",
         "skills": [
@@ -21,7 +21,7 @@
     {
         "title": "Gloria",
         "description": "A web application providing a digital menu system that helps manage menus easily. Led the frontend team in designing and developing the user interface using React and Tailwind CSS. Collaborated closely with the backend team to ensure seamless integration and optimize performance. The project also involved implementing features for menu customization, real-time updates, and user management.",
-        "imageUrl": "/assets/img/Gloria.png",
+        "imageUrl": "/assets/images/Gloria.png",
         "githubUrl": "",
         "demoUrl": "https://gloria-alpha.vercel.app/",
         "skills": [
@@ -41,7 +41,7 @@
         "title": "Block Sign",
         "description": "A web application to help users to manage their contract, information. A collaboration project with 5 other students for Component-based Software Engineering course. The project is built using Nestjs for the backend and NextJS for the frontend.",
         "type": "Bachelor's Degree Final Year Project",
-        "imageUrl": "/assets/img/BlockSign.png",
+        "imageUrl": "/assets/images/BlockSign.png",
         "githubUrl": "https://github.com/Ethanxcode/Block-Sign",
         "demoUrl": "https://block-sign.vercel.app/vi",
         "skills": [
@@ -67,7 +67,7 @@
         "title": "customer-facing website.",
         "description": "A web application designed to help users sell their products, manage revenue, process orders, and track the progress of their goals. This was a collaborative project with 3 other students.",
         "type": "College Project",
-        "imageUrl": "/assets/img/Objetivo.png",
+        "imageUrl": "/assets/images/Objetivo.png",
         "githubUrl": "https://github.com/Ethanxcode/E-commere-Project1-Polyhcm",
         "demoUrl": "",
         "skills": ["PHP", "JavaScript", "CSS", "Bootstrap"]
