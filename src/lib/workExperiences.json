@@ -1,0 +1,80 @@
+[
+    {
+        "position": "Frontend Developer (Freelancer)",
+        "company": "FPT Polytechnic College",
+        "duration": "Aug 2023 - Feb 2024",
+        "responsibilities": [
+            "Collaborated with other engineers to design, build, and develop projects for clients of FPT Polytechnic College.",
+            "Developed a web application to manage students and activities in a workshop setting, successfully managing ~10,000 registered students and more than 477 projects."
+        ],
+        "skills": [
+            "REST APIs",
+            "TypeScript",
+            "React",
+            "Tailwind CSS",
+            "RTK Query",
+            "Redux toolkit",
+            "JWT",
+            "NestJs",
+            "MongoDB",
+            "Docker",
+            "I18n",
+            "Zod",
+            "React Query",
+            "Socket.io",
+            "CSS Framework",
+            "Cloudinary",
+            "Clerk",
+            "Strapi",
+            "Framer-motion",
+            "Stripe",
+            "Firebase"
+        ]
+    },
+    {
+        "position": "Full-stack Developer (Freelancer)",
+        "company": "Bytez Team",
+        "duration": "August 2024 - Dec 2024",
+        "responsibilities": [
+            "Designed and developed a software, collaborated with other engineers on existing internal systems to implement feature enhancements and modifications."
+        ],
+        "skills": [
+            "REST APIs",
+            "TypeScript",
+            "Nextjs",
+            "Laravel Lumen",
+            "MySQL",
+            "PostgreSQL",
+            "Ruby on Rails",
+            "Packaging Design",
+            "Figma",
+            "Ant design",
+            "Postman API",
+            "Design Patterns"
+        ]
+    },
+    {
+        "position": "Backend Developer",
+        "company": "TIEN PHONG CDS JOINT STOCK COMPANY",
+        "duration": "December 2023 - Present",
+        "responsibilities": [
+            "I have experience in maintaining and improving performance to meet client requirements.",
+            "Collaborated with other engineers to design reliable and scalable API solutions and ensured high availability and responsiveness through testing and troubleshooting."
+        ],
+        "skills": [
+            "Full Stack Development",
+            "PHP",
+            "REST APIs",
+            "GraphQL",
+            "Laravel Lumen",
+            "MySQL",
+            "PostgreSQL",
+            "Ruby on Rails",
+            "Packaging Design",
+            "Figma",
+            "Ant design",
+            "Postman API",
+            "Design Patterns"
+        ]
+    }
+]
