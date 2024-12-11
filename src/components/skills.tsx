@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import { Reveal } from './custom/reveal';
 import Spline from '@splinetool/react-spline/next';
-import ChatGpt from './ui/gpt';
-import Copilot from './ui/copilot';
+import ChatGpt from '../lib/img/icons/gpt';
+import Copilot from '../lib/img/icons/copilot';
 
 export default function Skills() {
     const splineUrl = process.env.NEXT_PUBLIC_SPLINE_URL || '';
