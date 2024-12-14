@@ -23,7 +23,8 @@ export function NavigationBar() {
 
     return (
         <>
-            <NavigationMenu className="hidden sm:flex sm:sticky sm:top-0 min-w-full bg-black bg-opacity-20 backdrop-blur-lg container py-4 justify-between border-b border-border/40">
+            <NavigationMenu className="hidden sm:flex sm:sticky sm:top-4 min-w-[40%] rounded-[4rem] bg-black bg-opacity-20 backdrop-blur-lg container py-4 justify-between border-b border-border/40 dark:shadow-2xl dark:shadow-blue-500/[0.1]">
+                {/* className="hidden sm:flex sm:sticky sm:top-0 min-w-full bg-black bg-opacity-20 backdrop-blur-lg container py-4 justify-between border-b border-border/40" */}
                 <Avatar
                     className="cursor-pointer"
                     onClick={() => scrolltoHash('hero')}

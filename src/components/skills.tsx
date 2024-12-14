@@ -373,6 +373,21 @@ export default function Skills() {
                                     Google Cloud
                                 </p>
                             </div>
+
+                            {/* MongoDB */}
+                            <div className="flex flex-col items-center justify-center">
+                                <Image
+                                    src="/assets/icons/mongodb.svg"
+                                    alt="MongoDB logo"
+                                    width={100}
+                                    height={100}
+                                    priority
+                                    className="hover:animate-spin"
+                                />
+                                <p className="text-sm text-muted-foreground">
+                                    MongoDB
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </Reveal>
