@@ -12,6 +12,7 @@ import { Reveal } from './custom/reveal';
 import { TypewriterEffectSmooth } from './ui/typewriter-effect';
 
 import { Readcv } from '@/components/ui/readcv';
+import MatrixLoader from './custom/matrix-loader';
 
 export default function Hero() {
     const name = [{ text: 'Ethan' }, { text: 'Tran' }];

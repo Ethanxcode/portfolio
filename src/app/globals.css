@@ -23,6 +23,11 @@
     --input: 240 5.9% 90%;
     --ring: 240 5.9% 10%;
     --radius: 0.5rem;
+
+    --theme-text: rgba(0, 0, 0, 1);
+    --theme-border: rgba(224, 224, 224, 1);
+    --theme-button-foreground: rgba(15, 98, 254, 1);
+    --theme-focused-foreground: rgba(92, 255, 59, 1);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -46,6 +51,12 @@
         --border: 240 3.7% 15.9%;
         --input: 240 3.7% 15.9%;
         --ring: 240 4.9% 83.9%;
+
+        --theme-text: rgba(255, 255, 255, 1)
+            /* --theme-text: rgba(59, 130, 246, 0.1); */;
+        --theme-button-foreground: rgba(38, 38, 38, 1);
+        --theme-focused-foreground: rgba(239, 99, 0, 1);
+        --theme-border: rgba(38, 38, 38, 1);
     }
 }
 
